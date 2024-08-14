@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Off the Map Adventures</title>
 
     <!-- Bs link -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
@@ -20,10 +20,10 @@
 
     <!-- Navbar -->
 <div class = navbar>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary" style="background-color: #e3f2fd;">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
         <nav class="navbar navbar-expand-lg bg-body-tertiary" >
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">Navbar</a>
+          <a class="navbar-brand" href="#">A Touch Of The Exotic</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -33,17 +33,17 @@
                 <a class="nav-link active" aria-current="page" href="#">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
+                <a class="nav-link" href="#">Destination</a>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Dropdown
+                  Explore
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Cities</a></li>
+                  <li><a class="dropdown-item" href="#">beach</a></li>
                   <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  <li><a class="dropdown-item" href="#">mountains</a></li>
                 </ul>
               </li>
             </ul>
@@ -57,11 +57,14 @@
 
 
 
-<div class="Hero" class="container-fluid"> 
-       <div class="p-5 text-center bg-image rounded-3" style="
-    background-image: url('images/hero.jpg');
-    height: 400px;
-  ">
+       <div class="Hero container-fluid" id="hero"> 
+        <div class="p-5 text-center bg-image rounded-3" style="
+            background-image: url('images/hero2.jpg');
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 800px;
+        ">
   <div class="mask" style="background-color: rgba(0, 0, 0, 0.6);">
     <div class="d-flex justify-content-center align-items-center h-100">
       <div class="text-white">
@@ -79,7 +82,7 @@
 <!-- carousel-->
 
 
-<div class="container p-5">
+<div class="container p-5" id="carousel">
     <div class="row">
         <div class="col-md-6 col-12 mb-4">
             <div class="carousel--">
@@ -136,41 +139,42 @@
 
 <!--cards-->
 
-<div class="container py-5">
-    <h2 class="text-center mb-3"> Adventures to Experience </h2>
-    <div class="row row-cols-1 row-cols-md-3 g4">
-        <div class="col">
-            <div class="card" style="width: 18rem;">
-                <img src="..." class="card-img-top" alt="...">
+<div class="container py-5" id="card">
+    <h2 class="text-center mb-4">Adventures to Experience</h2>
+    <div class="row text-center justify-content-evenly">
+        <div class="col-md-4 mb-4">
+            <div class="card h-100" >
+                <img src="images/card1.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <h5 class="card-title">Because Your Couch Doesn’t Have a View.</h5>
+                  <p class="card-text">Imagine waking up to the serene beauty of a sunrise over the mountains or the calming waves of the ocean, all from the comfort of your home. Unlike your couch, a home with a view offers a daily dose of inspiration and tranquility, enhancing your overall well-being.</p>
                   <a href="#" class="btn btn-primary">Go somewhere</a>
                 </div>
               </div>
         </div>
         <div class="col">
-            <div class="card" style="width: 18rem;">
-                <img src="..." class="card-img-top" alt="...">
+            <div class="card h-100" >
+                <img src="images/card2.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <h5 class="card-title">A World Within A State Apart</h5>
+                  <p class="card-text">Experience the wonders that lie just beyond your familiar surroundings. Whether you’re seeking serene landscapes, vibrant cityscapes, or hidden historical treasures, we bring you unforgettable journeys that are closer than you think.</p>
                   <a href="#" class="btn btn-primary">Go somewhere</a>
                 </div>
               </div>
         </div>
         <div class="col">
-            <div class="card" style="width: 18rem;">
-                <img src="..." class="card-img-top" alt="...">
+            <div class="card h-100" >
+                <img src="images/card3.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <h5 class="card-title">Transcend the Travel Norm.</h5>
+                  <p class="card-text">Break free from the ordinary and embrace extraordinary travel experiences. Discover hidden gems, immerse yourself in local cultures, and create unforgettable memories that redefine what travel means to you.</p>
                   <a href="#" class="btn btn-primary">Go somewhere</a>
                 </div>
               </div>
         </div>
     </div>
 </div>
+
 
 
 <!--cards-->
@@ -181,11 +185,11 @@
     <!-- Copyright -->
     <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);">
       © 2020 Copyright:
-      <a class="text-body" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+      <a class="text-body" href="https://Off the Map Adventures.com/">Off the Map Adventures</a>
     </div>
     <!-- Copyright -->
   </footer>
-  
+
 <!--footer-->
 
 
